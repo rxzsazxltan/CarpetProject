@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ShopListActivity">
+
+        <ImageView
+            android:id="@+id/carpet"
+            android:layout_width="240dp"
+            android:layout_height="310dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/carpet"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="144dp"
+            android:textSize="30sp"
+            android:text="@string/product_description"
+            app:layout_constraintLeft_toRightOf="@id/carpet"
+            app:layout_constraintTop_toTopOf="@id/carpet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="200dp"
+            android:textSize="30sp"
+            android:text="@string/carpet_price"
+            app:layout_constraintLeft_toRightOf="@id/carpet"
+            app:layout_constraintTop_toTopOf="@id/carpet" />
+
+        <Button
+            android:id="@+id/notification_button"
+            android:layout_width="380dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/notify"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/carpet" />
+
+        <Button
+            android:id="@+id/to_cart"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="400dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/to_cart"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@id/notification_button"
+            app:layout_constraintTop_toBottomOf="@+id/carpet" />
+        
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

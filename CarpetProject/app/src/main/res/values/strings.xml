@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">CarpetProject</string>
+    <string name="name">Felhasználó név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="email">E-mail cím</string>
+    <string name="password_again">Jelszó újra</string>
+    <string name="cancel">Mégsem</string>
+    <string name="product_description">Perzsa szőnyeg olcsó, kicsi péz</string>
+    <string name="carpet">carpet</string>
+    <string name="loginWithGoogle">Bejelentkezés Google Fiókkal</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Infó a termékről</string>
+    <string name="to_cart">Kosárba</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="settings">Beállítások</string>
+    <string name="cart">Kosár</string>
+    <string name="view">Nézet</string>
+    <string name="notify">Emlékeztető beállítása</string>
+    <string name="carpet_price">Ár: 96500 HUF</string>
+    <string name="exit">Kilépés</string>
+
+    <string-array name="shopping_item_names">
+        <item>Perzsa szőnyeg</item>
+        <item>Török repülő szőnyeg</item>
+        <item>Ankarai csodaszőnyeg</item>
+        <item>Kínai repülő szőnyeg</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Ez egy perzsa szőnyeg!</item>
+        <item>Ez egy török repülő szőnyeg!</item>
+        <item>Ez egy ankarai csodaszőnyeg!</item>
+        <item>Ez egy kínai repülő szőnyeg!</item>
+    </string-array>
+
+    <string-array name="shopping_item_rates">
+        <item>4.0</item>
+        <item>3.5</item>
+        <item>5.0</item>
+        <item>1.5</item>
+    </string-array>
+
+    <string-array name="shopping_item_images">
+        <item>@drawable/carpet</item>
+        <item>@drawable/carpet</item>
+        <item>@drawable/carpet</item>
+        <item>@drawable/carpet</item>
+    </string-array>
+
+    <string-array name="shopping_item_price">
+        <item>120000 HUF</item>
+        <item>300000 HUF</item>
+        <item>240000 HUF</item>
+        <item>15000 HUF</item>
+    </string-array>
+</resources>

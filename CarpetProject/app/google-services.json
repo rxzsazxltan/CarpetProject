@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "650830995040",
+    "project_id": "carpetshop-a6143",
+    "storage_bucket": "carpetshop-a6143.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650830995040:android:a0c9cbd2fe48494f8f6d05",
+        "android_client_info": {
+          "package_name": "com.example.carpetproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650830995040-ptugptdmjuddgk9eemln5e40te40qqfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carpetproject",
+            "certificate_hash": "ed8a3f63f3d7d9d0c2766acb2e45ff4972bb3040"
+          }
+        },
+        {
+          "client_id": "650830995040-fe7d96pglbp2c24pv0rch9jij4ro06c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACHsOFy1ccnj7HIT_SkAmXtz7D5-miFLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650830995040-fe7d96pglbp2c24pv0rch9jij4ro06c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
